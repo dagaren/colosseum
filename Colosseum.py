@@ -3,11 +3,11 @@ import kivy
 kivy.require('1.9.1')
 
 from kivy.app import App
-from kivy.uix.label import Label
+from board import Board
 
 class ColosseumApp(App):
     def build(self):
-        return Label(text = 'Colosseum')
+        return Board()
 
 if __name__ == '__main__':
     ColosseumApp().run()
