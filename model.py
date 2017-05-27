@@ -1,5 +1,11 @@
 from enum import IntEnum
 
+class CastlingRight(IntEnum):
+    LongWhite = 0
+    ShortWhite = 1
+    LongBlack = 2
+    ShortBlack = 3
+
 class Piece(IntEnum):
     WhiteKing = 0
     WhiteQueen = 1
